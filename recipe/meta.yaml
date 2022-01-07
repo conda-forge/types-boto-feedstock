@@ -1,5 +1,5 @@
 {% set name = "types-boto" %}
-{% set version = "2.49.4" %}
+{% set version = "2.49.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-boto-{{ version }}.tar.gz
-  sha256: 73e43f26adaa05c74de643b918f6264a260e4b06156ae8f2b85c699f4cbfe793
+  sha256: 6726dfeed83b9b1f91b86a0144289c33c9d8849b00c607ec1be69ef9ca4c1e26
 
 build:
   number: 0
